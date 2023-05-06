@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    margin: 100px auto;
+    height: 100%;
+    /*border: 4px solid darkslategrey;*/
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.formWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 20px 20px;
+    height: 270px;
+    border-radius: 7px;
+    width: max-content;
+    gap: 10px;
+
+}
+
+.form {
+    border: 3px solid darkslategrey;
+    border-radius: 5px;
+    height: 225px;
+    width: 310px;
+}
+
+.counter {
+    color: red;
+    font-weight: bold;
+    font-size: 70px
+}
+.incorrectVal {
+    color: red;
+    font-weight: bold;
+    font-size: 20px
+}
+.enterVal {
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.wrapCounter {
+    border: 3px solid darkslategrey;
+    border-radius: 5px;
+    height: 100px ;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    color: darkslateblue;
+
+}
+
+/*.number {*/
+/*    width: 148px;*/
+/*    height: 60px;*/
+/*
+/*    font-size: 40px;*/
+/*    color: blue;*/
+/*}*/
+
+.button {
+    width: 90px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    font-weight: 450;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background: transparent;*/
+    background-color: darkslateblue;
+
+
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn {
+    background: rgb(96, 9, 240);
+    background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, rgba(129, 5, 240, 1) 100%);
+    border: none;
+
+}
+
+.btn:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+.buttonSet  {
+    display: flex;
+    justify-content: center;
+    /*padding: 4px 0;*/
+    border: 3px solid darkslategrey;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.buttonIncRes {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid darkslategrey;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.value {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.twoValue {
+    border: 3px solid darkslategrey;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.input {
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+.error {
+    border: red 3px solid;
+    background-color: lightcoral;
+    color: red;
+}
+
+h3 {
+    /*font-family: 'Roboto', sans-serif;*/
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
